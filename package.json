@@ -1,0 +1,19 @@
+{
+  "name": "tatted_dragons_website",
+  "description": "official website of the tatted dragons nft",
+  "version": "1.0.0",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/improvesyv/TattedDragonsWebsite"
+  },
+  "keywords": [],
+  "author": "Improvesyv",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}

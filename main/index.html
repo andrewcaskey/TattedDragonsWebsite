@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tatted Dragons - NFT Website</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/social media icons/TD.png" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- owl-carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="css/owl-carousel/owl.carousel.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="css/export.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="css/line-awesome.min.css" />
+    <!-- media element player -->
+    <link rel="stylesheet" type="text/css" href="css/mediaelementplayer.min.css" />
+    <!-- Timeline CSS -->
+    <link rel="stylesheet" type="text/css" href="css/timeline.min.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="ABILive3.js"></script>
+    <script src="countdown.js"></script>
+    <link rel="stylesheet" href="css/odometer.css" />
+    <script src="odometer.js"></script>
+	</head>
+
+<body data-spy="scroll" data-offset="80">
+    <!-- loading -->
+    <div id="loading">
+        <div id="loading-center">
+            <div class="loader loader2">
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- loading End -->
+    <!-- Header -->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#wave">
+                            <img src="images/Dragons/Banner3.png" alt=""/> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="la la-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#wave">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="countdown-button" href="#countdown-section">Countdown</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#ico">About</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#road">Road Map</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#team">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a target="_blank" href="https://twitter.com/TattedDragons"><img src="images/social media icons/Twitter.png" width="48" height="48" alt=""/>&nbsp;</a>    
+                                </li>
+                                <li class="nav-item">
+                                    <a target="_blank" href="https://discord.gg/42PbNAs8NC"><img src="images/social media icons/Discord.png" width="48" height="48" alt=""/>&nbsp;</a>
+                                </li>
+                            </ul>
+                        </div>
+                  </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header END -->
+    <!-- banner -->
+    <div id="wave" class="iq-banner">
+        <div class="banner-info">
+            <div class="container">
+                <div class="row">
+<div class="col-lg-5 text-center r9-mt-40 col-xl-12">
+	<div class="align-items-sm-center">
+            <div class="iq-countdown">
+              <h2 class="iq-tw-8 iq-font-yellow">Welcome to the Tatted Dragons Family!&nbsp;</h2>
+              <h4>8,888 NFTs minted on the Ethereum Blockchain</h4>
+              <br>
+				<img src="images/Dragons/TattedDragonsBanner.png" class="img-fluid" alt="">
+            </div>
+        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <!-- Main-Contain -->
+    <div class="main-contain">
+            <section class="overview-block-pt" id="countdown-section">
+                    <div class="container">
+                        <div class="row d-flex justify-content-center">
+                            <h1 class="iq-tw-8 iq-font-yellow">Live in:</h1>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <h2 id="countdown"></h2>
+                        </div>
+                        <script src="mint.js"></script>
+                    </div>
+                </section>
+        <!-- Mint -->  
+        <section class="overview-block-pt" id="mint-section" style="display: none;">
+            <div class="container">
+                <div class="row flex-row-reverse">
+                    <div class="col-lg align-self-center" id="wallet-info">
+                        <h3 id="wallet-connected"><strong>No Wallet Connected</strong></h3>
+                        <p id="wallet-address"></p>
+                    </div>
+                    <div class="col-lg align-self-center">
+                        <h4 id="math">x <span id="cost">0.08</span> = <span id="total">0.08</span> <img src="images/icon/eth.svg" height="32" width="32"></h4>
+                    </div>
+                    <div class="col-lg align-self-center">
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                      <label class="input-group-text" for="quantity">Quantity</label>
+                                    </div>
+                                    <select class="custom-select" id="quantity">
+                                      <option selected value=1>1</option>
+                                      <option value=2>2</option>
+                                      <option value=3>3</option>
+                                      <option value=4>4</option>
+                                      <option value=5>5</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-danger" type="button" id="mint">Mint!</button>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Mint -->
+        <!-- What is Ico -->
+        <section id="ico" class="overview-block-pt">
+            <div class="container">
+                <div class="row flex-row-reverse">
+                    <div class="col-lg-6 align-self-center">
+                        <img src="images/Dragons/DragonGif2.gif" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 align-self-center">
+                        <div class="heading-title left">
+                            <small class="iq-font-green">Welcome to the tatsu&nbsp;</small>
+                            <h2 class="iq-tw-6">About&nbsp;</h2>
+                        </div>
+                        <p>Welcome to Tatted Dragons,&nbsp; the underground web3 community where your NFT doubles as your membership to the Tatted Dragons Tatsu. All Dragons come with a proof of ownership stored on the Ethereum blockchain.&nbsp; &nbsp;</p>
+                        <p>Each Tatted Dragon&nbsp; represents a base level of membership and each NFT consists of varying and unique levels of community access and perks. Each Dragon is unique and no two are exactly alike.&nbsp; &nbsp; </p>
+                        <a class="button iq-mt-20" target="_blank" href="https://discord.gg/42PbNAs8NC" role="button">Join Discord</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+  
+      <section id="road" class="iq-timeline iq-bg-over overview-block-ptb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="heading-title">
+                            <h2 class="title iq-tw-6">Roadmap</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="timeline">
+                            <div class="timeline__wrap">
+                                <div class="timeline__items">
+                                    <div class="timeline__item">
+                                        <div class="timeline__content">
+                                            <h2><strong>10% Sold</strong></h2>
+                                            <p>1 Eth airdropped to a random Tatted Dragon holder</p>
+                                      </div>
+                                    </div>
+                                    <div class="timeline__item">
+                                        <div class="timeline__content">
+                                            <h2><strong>20% Sold</strong></h2>
+                                            <p>1 Eth airdropped to 5 random Tatted Dragon holders </p>
+                                      </div>
+                                    </div>
+                                    <div class="timeline__item">
+                                        <div class="timeline__content">
+                                            <h2><strong>30% Sold</strong></h2>
+                                            <p>Our first official Merch drop - Proceeds go to the charity of the communities choosing</p>
+                                      </div>
+                                    </div>
+                                    <div class="timeline__item">
+                                      <div class="timeline__content">
+                                        <h2><strong>40% Sold</strong></h2>
+                                          <p>40 Tatted Dragon NFTs are minted and airdropped to random holders throughout the community</p>
+                                        </div>
+									</div>
+									<div class="timeline__item">
+                                      <div class="timeline__content">
+                                        <h2><strong>50% Sold</strong></h2>
+                                          <p>$50,000 in giveaways to the Tatted Dragons community </p>
+                                        </div>
+									</div>
+									<div class="timeline__item">
+                                      <div class="timeline__content">
+                                        <h2><strong>75% Sold</strong></h2>
+                                          <p>Set aside 100k for down payment for Tatted Dragons Tattoo Shop</p>
+                                        </div>
+									</div>
+									<div class="timeline__item">
+                                      <div class="timeline__content">
+                                        <h2><strong>100% Sold</strong></h2>
+                                          <p>Open the Official Tatted Dragons Tattoo Shop & Digital Art Studio in Colorado + the creation of the next Official @TattedCollection</p>
+                                        </div>
+									</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <!-- Token Sale Timeline -->
+        <!-- Team -->
+        <section id="team" class="iq-team overview-block-pb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                      <div class="heading-title">
+<h2 class="title iq-tw-6">The Founders</h2>
+</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-xl-3">
+                        <div class="our-team">
+                            <div class="team-image">
+                                <img alt="#" src="images/Dragons/Falkors.png">
+                                <ul class="social">
+                                    <li><a target="_blank" href="https://twitter.com/TattedFalkor" class="fa fa-twitter"></a></li>
+                                </ul>
+                            </div>
+                            <div class="team-content">
+                                <h5 class="title iq-tw-7">Falkor&nbsp;</h5>
+                                <small class="iq-mt-5 d-block iq-mb-10 iq-font-yellow iq-font-15">Founder</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 r4-mt-40  col-xl-3">
+                        <div class="our-team">
+                            <div class="team-image">
+                                <img alt="#" src="images/Dragons/Tatsuya.png">
+                                <ul class="social">
+                                    <li><a target="_blank" href="https://twitter.com/itstatsu" class="fa fa-twitter"></a></li>
+                                </ul>
+                            </div>
+                            <div class="team-content">
+                                <h5 class="title iq-tw-7">Tatsuya</h5>
+                                <small class="iq-mt-5 d-block iq-mb-10 iq-font-yellow iq-font-15">Tatoo Artist / Graphic Designer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 r4-mt-40  col-xl-3">
+                            <div class="our-team">
+                                <div class="team-image">
+                                    <img alt="#" src="images/Dragons/Hyperion.png">
+                                    <ul class="social">
+                                        <li><a target="_blank" href="https://twitter.com/TattedHyperion" class="fa fa-twitter"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-content">
+                                    <h5 class="title iq-tw-7">Hyperion</h5>
+                                    <small class="iq-mt-5 d-block iq-mb-10 iq-font-yellow iq-font-15">Lead Developer</small>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-lg-3 col-md-6 r4-mt-40  col-xl-3">
+                        <div class="our-team">
+                            <div class="team-image">
+                                <img alt="#" src="images/Dragons/Pythios.png">
+                                <ul class="social">
+                                    <li><a target="_blank" href="https://twitter.com/interco67025287" class="fa fa-twitter"></a></li>
+                                </ul>
+                            </div>
+                            <div class="team-content">
+                                <h5 class="title iq-tw-7">Pythios</h5>
+                                <small class="iq-mt-5 d-block iq-mb-10 iq-font-yellow iq-font-15">Developer</small>
+                            </div>
+                        </div>
+                    </div>
+</div>
+</div>
+        </section>
+   
+        <!-- FAQ END -->
+        <!-- Our Blog -->        <!-- Our Blog END -->
+    <!-- Token Sale Proceeds -->    <!-- Token Sale Proceeds END -->
+    <!-- back-to-top -->
+    <div id="back-to-top">
+        <a class="top" id="top" href="#top"><i class="fa fa-angle-double-up" aria-hidden="true"></i> </a>
+    </div>
+    <!-- back-to-top End -->
+    <!-- bubbly -->
+    <canvas id="canvas1"></canvas>
+    <!-- bubbly End -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-min.js "></script>
+    <!-- popper JavaScript -->
+    <script src="js/popper.min.js "></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js "></script>
+    <!-- All-plugins JavaScript -->
+    <script src="js/all-plugins.js "></script>
+    <!-- timeline JavaScript -->
+    <script src="js/timeline.min.js"></script>
+    <!-- wave JavaScript -->
+    <script src="js/wave/three.min.js"></script>
+    <script src="js/wave/Projector.js"></script>
+    <script src="js/wave/CanvasRenderer.js"></script>
+    <script src="js/wave/index.js"></script>
+    <!-- bubbly JavaScript -->
+    <script src="js/bubbly-bg.js"></script>
+    <!-- amcharts -->
+    <script src="js/amcharts/amcharts.js"></script>
+    <script src="js/amcharts/serial.js"></script>
+    <script src="js/amcharts/export.min.js"></script>
+    <script src="js/amcharts/none.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/custom.js"></script>
+	</div>
+</body>
+
+</html>
